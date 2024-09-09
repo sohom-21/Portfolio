@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="left">Sohom's portfolio</div>
+    <div class="right">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Projects</a></li>
+        <li><a href="/">Contact me</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+  </header>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi, my name is <span class="purple">Sohom Ghosh ,</span>
+        <div>I am a passionate</div>
+
+        <span id="element"></span>
+        <br>
+        <div class="resume"><a href="SOHOM GHOSH_Resume.pdf" download><b>My Resume</b></a></div>
+      </div>
+      <div class="rightsection">
+        <img src="pro_avatar.png" alt="">
+      </div>
+    </section>
+    <hr>
+    <section class="secondsection">
+      <h1>My Skills</h1>
+      <div class="simple-bar-chart">
+
+        <div class="item" style="--clr: #5EB344; --val: 70">
+          <div class="label">Website Development</div>
+          <div class="value">70%</div>
+        </div>
+
+        <div class="item" style="--clr: #FCB72A; --val: 70">
+          <div class="label">Website Design</div>
+          <div class="value">60%</div>
+        </div>
+
+        <div class="item" style="--clr: #963D97; --val: 85">
+          <div class="label">Video Editing</div>
+          <div class="value">85%</div>
+        </div>
+
+        <div class="item" style="--clr: #069CDB; --val: 90">
+          <div class="label">React.js</div>
+          <div class="value">80%</div>
+        </div>
+        <div class="item" style="--clr: #c9378c; --val: 120">
+          <div class="label">Node.js</div>
+          <div class="value">80%</div>
+        </div>
+        <div class="item" style="--clr: #dfdc3c; --val: 69">
+          <div class="label">Mongodb</div>
+          <div class="value">80%</div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <hr>
+  </main>
+  <div class="projects">
+    <h1>Projects</h1>
+    <div class="projectslist">
+      <ul>
+        <li><img src="Netflix.png" alt="netflix Homepage">
+          <h2>Netflix Homepage</h2>
+          <p>A simple Website Containing <br>Netflix Homepage using HTML and CSS</p>
+        </li>
+        <li>
+          <img src="weatherAPP.png" alt="">
+          <h2>weather App</h2>
+          <p>A simple basic weather app with <br>dark and light mode using HTML, CSS and Javascript</p>
+        </li>
+        <li><img src="Temp.png" alt="/">
+          <h2>Temperature Converter</h2>
+          <p>This is for Converting from degree to fahrenheit and kelvin, <br> and vice versa, using HTML, CSS and Javascript</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="contact">
+    <h1>Contact me</h1>
+    <div class="list">
+      <ul>
+        <li>Mobile Number : +91 9155557919</li>
+        <li><a href="www.linkedin.com/in/sohom-ghosh-3894b130a">Linkedin</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cr">
+    <H2>Copyright &copy Sohom Ghosh</H2>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+  </script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web developer', 'Graphic designer', 'React Developer', 'Web designer', 'Video editor'],
+      typeSpeed: 45,
+    });
+  </script>
+</body>
+
+</html>
